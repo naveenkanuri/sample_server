@@ -8,6 +8,6 @@ Requirements from frontend express javascript server:
 2. run `npm install` where the `package.json` file is located
 
 How to start the project:
-1. Run `node app.js` to start frontend server on port 8000
+1. Run `npm start` to start frontend server on port 8000
 2. Run `python3 server.py` to start backend server on port 5000
 3. Open any browser and enter `http://localhost:8000`
