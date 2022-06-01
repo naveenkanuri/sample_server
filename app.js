@@ -36,7 +36,7 @@ function sendReq(req) {
 
     // call the postData function with url = backend server url
     // and request body = json object with inputText = user entered data
-    postData("http://localhost:5000/multiply", { "inputText": req })
+    postData("http://localhost:5005/multiply", { "inputText": req })
         .then(data => { // we process the response received from server
             console.log(data); // JSON data parsed by `data.json()` call
             if(data['success'] == true) { // set response accordingly

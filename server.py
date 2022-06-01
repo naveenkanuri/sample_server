@@ -9,7 +9,7 @@ CORS(app) # This is required for this backend server running on port 5000
           # running on a different port. ie., allow cross-origin requests.
 
 # The path where the backend server is listening at
-# This resolves to http://localhost:5000/multiply
+# This resolves to http://localhost:5005/multiply
 @app.route("/multiply", methods=["POST"])
 def multiply():
     body = request.json # read the request body
@@ -36,4 +36,4 @@ def multiply():
 
 # This is the port where this backend server port runs on
 if __name__ == '__main__':
-    app.run(port=5000)
+    app.run(host= "0.0.0.0", port=5005)

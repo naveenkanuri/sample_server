@@ -9,5 +9,5 @@ Requirements from frontend express javascript server:
 
 How to start the project:
 1. Run `npm start` to start frontend server on port 8000
-2. Run `python3 server.py` to start backend server on port 5000
+2. Run `python3 server.py` to start backend server on port 5005
 3. Open any browser and enter `http://localhost:8000`
